@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&family=Poppins&family=Roboto+Slab&family=Space+Mono&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Hub</title>
+    <title>Github Repo Simulation</title>
     <style>
         * {
             margin: 0;
@@ -14,6 +14,7 @@
             box-sizing: border-box;
             font-size: 1em;
             font-family: 'Space Mono', monospace;
+            background: #000;
             
         }
 
@@ -23,17 +24,16 @@
             background: #000;
             padding: 2%;
             margin: 5%;
-            /* box-shadow: 0px 0px 1000px #4d4d4d; */
+            box-shadow: 0 0 1000px #4d4d4d;
         }
-
         .center {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             transition: all .5s ease-in-out;
+            
         }
-
         ::selection {
             background: #fff;
             color: #000;
@@ -46,13 +46,12 @@
             <p>C:\Users\fakeUser\Desktop&gt; cd C:\path\to\your\fake\directory</p>
             <p>C:\path\to\your\fake\directory&gt; git init</p>
             <p>C:\path\to\your\fake\directory&gt; git remote add origin https://github.com/FakeUser/FakeRepo.git</p>
+            <p>C:\path\to\your\fake\directory&gt; git branch -M main</p>
             <p>C:\path\to\your\fake\directory&gt; git add .</p>
             <p>C:\path\to\your\fake\directory&gt; git commit -m "If I die, I die, 2024 here we come!!"</p>
             <p>C:\path\to\your\fake\directory&gt; git push -u origin main</p>
         </div>
     </div>
-    <script src="git.js">
-
-    </script>
+    <script src="git.js" defer></script>
 </body>
 </html>
